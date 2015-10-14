@@ -1,0 +1,321 @@
+/* main layout styles */
+
+/* Everything should be Tahoma */
+*
+{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+body
+{
+	margin: 0;
+	background: #ffffff;
+	overflow:hidden;
+}
+img
+{
+	border: 1px solid black;
+	border: 0;
+}
+p
+{
+	margin: 0 0 25px 0;
+}
+
+a:link, a:visited
+{
+	color: #006692;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+h3
+{
+	margin: 15px 0px 5px 0px;
+	color: #006692;
+	font-size: 14px;
+	font-weight:normal;
+	font-weight:bold;
+}
+
+h2
+{
+	margin: 0px 0px 15px 0px;
+	padding: 3px 10px 0px 30px;
+	color: #006692;
+	font-size: 16px;
+	width: 90%;
+	border-bottom: 1px solid #d2e4f1;
+	font-weight:normal;
+}
+
+h1
+{
+	margin: 0px 0px 0px 0px;
+	padding: 3px 10px 5px 30px;
+	color: #006692;
+	/*font-weight: bold;*/
+	font-size: 18px;
+	font-weight:normal;
+}
+
+table
+{
+	width:100%;
+	xheight:768px;
+	xborder-bottom:solid 1px #006692;
+	table-layout: fixed;
+}
+td
+{
+	padding: 4px 4px;
+	text-decoration :none;
+	overflow:hidden;
+	text-align: -moz-center;
+}
+
+
+#divchangealiens
+{
+	z-index:10;
+}
+#divchangealiens span
+{
+	font-weight:bolder;
+	font: 24px Tahoma, Arial;
+}
+.titelbalk
+{
+	border:solid 1px #006692;
+}
+
+.maintable
+{
+	position:absolute;
+	top:0px;
+}
+
+
+.jail
+{
+	position:absolute;
+	z-index:99;
+	display:none;
+}
+
+/*
+.tablejail
+{
+	width:200px;
+	border:4px solid blue;
+}
+.trjail
+{
+	border:4px solid blue;
+}
+.tdjail
+{
+	width:20px;
+	height:200px;
+	border:2px solid blue;
+}
+*/
+
+.alien
+{
+	position:absolute;
+	z-index:100;
+	xvisibility:hidden;
+}
+
+
+.g2_being
+{
+	position:absolute;
+	z-index:100;
+}
+.g2_spacepolice
+{
+}
+.g2_alien
+{
+}
+
+
+.plaat
+{
+	display:none;
+	z-index:999;
+	position:absolute;
+	border:2px solid black;
+}
+
+/* menu styles */
+
+#kmenu
+{
+	margin: 0;
+	padding: 0;
+	z-index:0;
+}
+
+	#kmenu li
+	{
+		list-style: none;
+		font: 12px Tahoma, Arial;
+		white-space: nowrap;
+	}
+
+	#kmenu li a
+	{
+		display: block;
+		background: #ffffff;
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #EAFFED;
+		white-space: nowrap;
+		display: inline;
+		border:0;
+	}
+
+	#kmenu li a:hover
+	{
+		background: #ffffff;
+	}
+
+		#kmenu li ul
+		{
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 1px solid white;
+		}
+
+		#kmenu li ul li
+		{
+			float: none;
+			display: inline;
+		}
+
+		#kmenu li ul li a
+		{
+			width: auto;
+			width: 70px;
+			background: #9F1B1B;
+		}
+
+		#kmenu li ul li a:hover
+		{
+			background: #7F1616;
+		}
+
+/*
+	#jsddm
+	{
+		margin: 0;
+		padding: 0;
+border: 1px blue solid;
+width: 94px;
+		qfloat: left;
+qfloat: inherit;
+qtext-align:center;
+	}
+
+		#jsddm li
+		{
+			xfloat: left;
+			qlist-style: none;
+			font: 12px Tahoma, Arial;
+border: 1px blue solid;
+		}
+
+		#jsddm li a
+		{
+			qdisplay: block;
+			background: #324143;
+			padding: 5px 12px;
+			text-decoration: none;
+			border-right: 1px solid white;
+			width: 70px;
+			color: #EAFFED;
+			qwhite-space: nowrap
+		}
+
+		#jsddm li a:hover
+		{
+			background: #24313C;
+		}
+
+			#jsddm li ul
+			{
+xtop:-24px;
+xleft:87px;
+				margin: 0;
+				padding: 0;
+				qposition: absolute;
+xposition: relative;
+				visibility: hidden;
+				border-top: 1px solid white;
+border: 1px blue solid;
+			}
+
+				#jsddm li ul li
+				{
+					float: none;
+qfloat: left;
+					qdisplay: inline;
+				}
+
+
+				#jsddm li ul li a
+				{
+					width: auto;
+					width: 70px;
+					background: #A9C251;
+					color: #24313C
+				}
+
+				#jsddm li ul li a:hover
+				{
+					background: #8EA344;
+				}
+					#jsddm li ul li ul
+					{
+						margin: 0;
+						padding: 0;
+						position: relative;
+						xtop:-24px;
+						xleft:87px;
+						visibility: hidden;
+						z-index:99;
+						display:none;
+						border-top: 1px solid white
+					}
+
+						#jsddm li ul li ul li
+						{
+							float: none;
+							display: inline
+						}
+
+						#jsddm li ul li ul li a
+						{
+							width: auto;
+							width: 70px;
+							background: #324143;
+							color: #EAFFED
+						}
+
+						#jsddm li ul li ul li a:hover
+						{
+							background: #24313C;
+						}
+*/
